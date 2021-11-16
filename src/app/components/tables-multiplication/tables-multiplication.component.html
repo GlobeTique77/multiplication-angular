@@ -1,0 +1,11 @@
+
+<table>
+    <tr>
+        <td *ngFor="let e of [].constructor(nombreTab); let i = index">
+            <table>
+                <app-table-multiplication [nombreUser]="i + 1"></app-table-multiplication>
+                
+            </table>
+        </td>
+    </tr>
+</table>
